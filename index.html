@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doceria</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="modal">
+        <div class="modal-content">
+            <img src="img/galeria1.jpg" id="modal-img">
+        </div>
+        <span id="btn-close">&times;</span>
+        <span id="btn-direita">&rang;</span>
+        <span id="btn-esquerda">&lang;</span>
+    </div>
+
+    <div class="container">
+        <div id="sidebar">
+            <div class="sidebar-container">
+                <img class="logo-doceria" src="img/stand.png" alt="Logo Doceria" >
+                <h1>Doceria</h1>
+                <nav>
+                    <ul>
+                        <li><a href="#sessao-bemvindo">Bem Vindo</a></li>
+                        <li><a href="#sessao-sobre">Sobre</a></li>
+                        <li><a href="#sessao-doces1">Doces 1</a></li>
+                        <li><a href="#sessao-doces2">Doces 2</a></li>
+                        <li><a href="#sessao-doces3">Doces 3</a></li>
+                        <li><a href="#sessao-contato">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+            <main>
+                <section id="sessao-bemvindo">
+                    <div class="banner"></div>
+                    <div class="sessao-content">
+                        <h1>Seja bem vindo</h1>
+                        <div class="conteudo">
+                            <div class="sessao-minibanner"></div>
+                            <div class="sessao-descricao">
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis, placeat est. Ratione animi modi sed sapiente alias reprehenderit nam consectetur eaque totam neque, eligendi, facilis vero. Velit nesciunt nostrum ullam?</p>
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis, placeat est. Ratione animi modi sed sapiente alias reprehenderit nam consectetur eaque totam neque, eligendi, facilis vero. Velit nesciunt nostrum ullam?</p>
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis, placeat est. Ratione animi modi sed sapiente alias reprehenderit nam consectetur eaque totam neque, eligendi, facilis vero. Velit nesciunt nostrum ullam?</p>
+                                <a href="#" class="sessao-bemvindo-btn">Leia mais</a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="sessao-sobre">
+                    <div class="sessao-content">
+                        <h1>Sobre nós</h1>
+                        <div class="conteudo conteudo2">
+                            <div class="sessao-minibanner"></div>
+                            <div class="sessao-descricao">
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis, placeat est. Ratione animi modi sed sapiente alias reprehenderit nam consectetur eaque totam neque, eligendi, facilis vero. Velit nesciunt nostrum ullam?</p>
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis, placeat est. Ratione animi modi sed sapiente alias reprehenderit nam consectetur eaque totam neque, eligendi, facilis vero. Velit nesciunt nostrum ullam?</p>
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis, placeat est. Ratione animi modi sed sapiente alias reprehenderit nam consectetur eaque totam neque, eligendi, facilis vero. Velit nesciunt nostrum ullam?</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="sessao-doces1" class="doces">
+                    <h2>Doces 1</h2>
+                    <div class="docesbox">
+                        <div class="doces1-imgs banner-galeria" id="img1" src="img/galeria1.jpg"></div>
+                        <div class="doces1-imgs banner-galeria" id="img2" src="img/galeria2.jpg"></div>
+                        <div class="doces1-imgs banner-galeria" id="img3" src="img/galeria3.jpg"></div>
+                        <div class="doces1-imgs banner-galeria" id="img4" src="img/galeria4.jpg"></div>
+                        <div class="doces1-imgs banner-galeria" id="img5" src="img/galeria5.jpg"></div>
+                    </div>
+                </section>
+                <section id="sessao-doces2" class="doces">
+                    <h2>Doces 2</h2>
+                    <div class="docesbox">
+                        <div class="doces2-imgs banner-galeria" id="img6" src="img/galeria6.jpg"></div>
+                        <div class="doces2-imgs banner-galeria" id="img7" src="img/galeria7.jpg"></div>
+                        <div class="doces2-imgs banner-galeria" id="img8" src="img/galeria8.jpg"></div>
+                    </div>
+                </section>
+                <section id="sessao-doces3" class="doces">
+                    <h2>Doces 3</h2>
+                    <div class="docesbox">
+                        <div class="doces3-imgs banner-galeria" id="img9" src="img/galeria9.jpg"></div>
+                        <div class="doces3-imgs banner-galeria" id="img10" src="img/galeria10.jpg"></div>
+                        <div class="doces3-imgs banner-galeria" id="img11" src="img/galeria11.jpg"></div>
+                        <div class="doces3-imgs banner-galeria" id="img12" src="img/galeria12.jpg"></div>
+                    </div>
+                </section>
+                <section id="sessao-contato">
+                    <h2>Entre em contato</h2>
+                    <form id="form-contato">
+                        <input type="text" name="name" placeholder="Nome">
+                        <input type="email" name="email" placeholder="E-mail">
+                        <textarea name="mensagem" id="text-area" placeholder="Escreva sua mensagem..."></textarea>
+                        <input type="submit" value="Enviar">
+                    </form>
+                </section>
+                <footer>
+                    <p>Matheus Medeiros @ 2022</p>
+                </footer>
+            </main>
+        
+    </div>
+    <script src="galeria.js"></script>
+</body>
+</html>
